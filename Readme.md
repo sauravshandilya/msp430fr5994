@@ -23,6 +23,14 @@ Refer code comments for details
 
 2. Sharp Memory LCD BoosterPack - Details (http://www.ti.com/tool/430BOOST-SHARP96)
 
-3. Energia Library for LCD_SharpBoosterPack_SPI: (https://github.com/energia/Energia/blob/master/libraries/LCD_SharpBoosterPack_SPI)
+3. Energia Library for LCD_SharpBoosterPack_SPI (useful in case modifications needs to be made to library): (https://github.com/energia/Energia/blob/master/libraries/LCD_SharpBoosterPack_SPI)
 
 4. Pin map for energia - MSP430FR5994 (https://embeddedcomputing.weebly.com/launchpad-msp430fr5994.html)
+
+
+#### Setting up energia
+
+1. Download Energia from [here](http://energia.nu/download/).
+2. Install board files: Tools --> Boards --> Board Manager --> search the board and click install.
+3. Use sample examples located in Examples to get started.
+3. Using LCD: File --> Examples --> LCD_SharpBoosterPack_SPI.
